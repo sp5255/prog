@@ -1,0 +1,30 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+vector<int> merge(vector<int>a, vector<int>b) {
+    for (int i = 0; i < b.size(); i++) {
+        a.push_back(b[i]);
+    }
+    return a;
+}
+int main() {
+/* C++ implementation of QuickSort */
+#include <bits/stdc++.h>
+using namespace std; 
+
+// A utility function to swap two elements 
+void swap(int* a, int* b) 
+{ 
+	int t = *a; 
+	*a = *b; 
+	*b = t; 
+        v.push_back(el);
+    }
+
+    u = merge(u, v);
+    cout << "merged\n";
+       for (int i = 0; i < u.size(); i++) {
+           cout << u[i]<<"\t";
+       }
+       cout << endl;
+}
