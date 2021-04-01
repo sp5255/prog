@@ -1,6 +1,4 @@
 
-//   sequence is not  printing properly
-
 #include<iostream>
 using namespace std;
 
@@ -88,8 +86,7 @@ void Lcs::print(){
     }
     cout<<"\nsequence\n";
 
-
-    // not properly working
+    
     
     int i = x.length(),j = y.length();
     string seq = "";
